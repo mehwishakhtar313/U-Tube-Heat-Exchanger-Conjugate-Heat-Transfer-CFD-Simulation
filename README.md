@@ -1,0 +1,2 @@
+# U-Tube-Heat-Exchanger-Conjugate-Heat-Transfer-CFD-Simulation
+CFD simulation of heat transfer in a U-tube using SimScale to investigate temperature distribution, fluid flow, and thermal performance. The project focuses on analyzing heat exchange between fluids, visualizing temperature contours, and examining velocity and pressure variations to understand heat-transfer behavior in process equipment.
