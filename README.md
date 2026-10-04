@@ -104,7 +104,7 @@ The simulation end time was **1,000 seconds**. Temperature contours, velocity fi
 
 The temperature contour visualizes the temperature field throughout the heat-exchanger model.
 
-[View temperature contour](images/temperature-contour.png)
+[View temperature contour](images/temperature.png)
 
 
 The contour provides a qualitative view of thermal distribution. Further checks of boundary conditions, thermal interfaces, and convergence are required before using the temperature field to calculate or validate heat-exchanger performance.
@@ -113,7 +113,7 @@ The contour provides a qualitative view of thermal distribution. Further checks 
 
 The velocity contour illustrates flow distribution through the heat-exchanger passages.
 
-[View velocity contour](images/velocity-contour.png)
+[View velocity contour](images/velocity.png)
 
 The velocity field can be used to investigate flow patterns and local variations associated with the exchanger geometry. Interpretation should account for inlet directions, outlet conditions, and mesh resolution.
 
