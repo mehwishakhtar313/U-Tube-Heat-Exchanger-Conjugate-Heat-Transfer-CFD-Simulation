@@ -20,18 +20,20 @@ The workflow includes geometry preparation, fluid-region creation, imprinting, m
 
 ## 3. Software and Simulation Setup
 
-| Parameter                  | Value |
-| Software                   | SimScale |
-| Equipment                  | U-tube heat exchanger |
-| Analysis type              | Conjugate Heat Transfer (CHT) |
-| Turbulence model           | k–ω SST |
-| Intended analysis approach | Steady-state |
-| Working fluid              | Water |
-| Solid material             | Steel |
-| Fluid regions              | Shell-side and tube-side |
-| Simulation end time        | 1,000 s |
-| Geometry preparation       | Flow-volume extraction and imprint |
-| Mesh generation            | SimScale meshing workflow |
+## Simulation Setup
+
+| Parameter | Value |
+| **Software** | SimScale |
+| **Equipment** | U-tube heat exchanger |
+| **Analysis Type** | Conjugate Heat Transfer (CHT) |
+| **Turbulence Model** | k–ω SST |
+| **Intended Analysis Approach** | Steady-state |
+| **Working Fluid** | Water |
+| **Solid Material** | Steel |
+| **Fluid Regions** | Shell-side and tube-side |
+| **Simulation End Time** | 1,000 s |
+| **Geometry Preparation** | Flow-volume extraction and imprint |
+| **Mesh Generation** | SimScale meshing workflow |
 
 ## 4. Geometry Preparation
 
