@@ -22,19 +22,19 @@ The workflow includes geometry preparation, fluid-region creation, imprinting, m
 
 ## Simulation Setup
 
-| Parameter | Value |
-| **Software** | SimScale |
-| **Equipment** | U-tube heat exchanger |
-| **Analysis Type** | Conjugate Heat Transfer (CHT) |
-| **Turbulence Model** | k–ω SST |
-| **Intended Analysis Approach** | Steady-state |
-| **Working Fluid** | Water |
-| **Solid Material** | Steel |
-| **Fluid Regions** | Shell-side and tube-side |
-| **Simulation End Time** | 1,000 s |
-| **Geometry Preparation** | Flow-volume extraction and imprint |
-| **Mesh Generation** | SimScale meshing workflow |
-
+| Parameter                  | Value |
+|----------------------------|-------|
+| Software                   | SimScale |
+| Equipment                  | U-tube heat exchanger |
+| Analysis type              | Conjugate Heat Transfer (CHT) |
+| Turbulence model           | k–ω SST |
+| Intended analysis approach | Steady-state |
+| Working fluid              | Water |
+| Solid material             | Steel |
+| Fluid regions              | Shell-side and tube-side |
+| Simulation end time        | 1,000 s |
+| Geometry preparation       | Flow-volume extraction and imprint |
+| Mesh generation            | SimScale meshing workflow | this appears in the form of paragraph in the github
 ## 4. Geometry Preparation
 
 The model represents a U-tube heat exchanger containing a shell, tube bundle, and separate fluid passages.
@@ -52,6 +52,7 @@ Correct representation of the fluid and solid domains is important for capturing
 ## 5. Material Properties
 
 | Region                    | Material |
+|---------------------------|----------|
 | Shell-side fluid          | Water |
 | Tube-side fluid           | Water |
 | Solid heat-exchanger wall | Steel |
@@ -63,6 +64,7 @@ The material assignments provide the physical properties required for the flow a
 The following boundary conditions were specified for the simulation.
 
 | Parameter        | Shell Side | Tube Side |
+|------------------|------------|-----------|
 | Inlet temperature| 100 °C     | 80 °C |
 | Inlet velocity   | −0.5 m/s   | −0.8 m/s |
 | Outlet condition | Pressure outlet | Pressure outlet |
